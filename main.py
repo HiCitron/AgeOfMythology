@@ -100,7 +100,7 @@ class Tech:
         
         # Copying the source tech identity
         srctech = self.techtree.find(target_tech_selector)
-        SubElement(self.tech, 'dbid').text = ''
+        # SubElement(self.tech, 'dbid').text = ''
         SubElement(self.tech, 'displaynameid' ).text = srctech.find('displaynameid').text
         SubElement(self.tech, 'rollovertextid').text = srctech.find('rollovertextid').text
         SubElement(self.tech, 'icon'          ).text = srctech.find('icon').text
@@ -115,27 +115,34 @@ class Tech:
         # Making it active and adding prereqs and effects tags
         SubElement(self.tech, 'status').text = 'OBTAINABLE'
         self.prereqs = SubElement(self.tech, 'prereqs')
+        self.hasprereq = False
         self.effects = SubElement(self.tech, 'effects')
+        self.haseffects = False
         return self
+    
+    def _add_prereq(self):
+        if self.prereqs is None: raise Exception('Tech has not been generated yet')
+        self.hasprereq = True
     
     def add_prereq_tech(self, techname: str):
         '''Add another tech as a prerequisite'''
-        if self.prereqs is None: raise Exception('Tech has not been generated yet')
+        self._add_prereq()
         SubElement(self.prereqs, 'techstatus', {'status': 'Active'}).text = techname
         return self
         
     def add_prereq_age(self, age: Age):
         '''Add a specific age as a prerequisite'''
-        if self.prereqs is None: raise Exception('Tech has not been generated yet')
+        self._add_prereq()
         SubElement(self.prereqs, 'specificage').text = age.value
         return self
         
     def add_prereq_culture(self, cultures: list[Culture]):
         '''Add a specific set of cultures as a prerequisite'''
-        if self.prereqs is None: raise Exception('Tech has not been generated yet')
+        self._add_prereq()
         culture_prereq = SubElement(self.prereqs, 'culture')
         for culture in cultures:
             SubElement(culture_prereq, 'culturename').text = culture
+        self.hasprereq = True
         return self
 
     def add_effect(self, target_unit_selector: str, subtype: str, amount: float, relativity: Relativity, action=None, **kwargs):
@@ -158,7 +165,9 @@ class Tech:
         
         # Verify the subtype is valid
         if subtype not in valid_subtypes:
-            raise Exception(f'Invalid subtype {subtype} for unit {target_unit_selector}, not in {valid_subtypes}')
+            # Ignore these subtypes as they exists for all units without being defined in the xml
+            if subtype not in ('Hitpoints',):
+                raise Exception(f'Invalid subtype {subtype} for unit {target_unit_selector}, not in {valid_subtypes}')
         
         # Create the effect element
         if self.effects is None: raise Exception('Tech has not been generated yet')
@@ -168,6 +177,7 @@ class Tech:
         
         # Add the target
         SubElement(effect, 'target', {'type': 'ProtoUnit'}).text = target_unit_name
+        self.haseffects = True
         return self
 
     def add_to_unit_menu(self, target_unit_selector: str, row: int, column: int):
@@ -175,6 +185,12 @@ class Tech:
         # Retrieve the target unit and add tech
         target_unit = self.proto.find(target_unit_selector)
         SubElement(target_unit, 'tech', {'row': str(row), 'page': '1', 'column': str(column)}).text = self.tech.get('name')
+        
+        # Remove unused tags if any
+        if not self.haseffects:
+            print('removing effects')
+            self.tech.remove(self.effects)
+        if not self.hasprereq: self.tech.remove(self.prereqs)
         return self
     
 def export_updated_xml(tree: ElementTree, filename: str):

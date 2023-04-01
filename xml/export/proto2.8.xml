@@ -20410,7 +20410,6 @@
         <action name="Enter">
             <param name="MaximumRange" value1="6" />
         </action>
-        <tech row="2" page="1" column="0">Tower Defense</tech>
         <tech row="2" page="1" column="0">Fortified Tower I</tech>
         <tech row="2" page="1" column="1">Fast Aiming Tower I</tech>
         <tech row="2" page="1" column="2">Ranged Archers Tower I</tech>

@@ -17134,42 +17134,15 @@
             <techstatus status="Active">Age 4 Hel</techstatus>
         </prereqs>
     </tech>
-    <tech name="Tower Defense" type="Normal">
-        <dbid />
-        <displaynameid>11128</displaynameid>
-        <rollovertextid>10725</rollovertextid>
-        <icon>improvement guard tower icon</icon>
-        <researchpoints>0</researchpoints>
-        <status>OBTAINABLE</status>
-        <prereqs>
-            <specificage>Classical Age</specificage>
-            <techstatus status="Active">Guard Tower</techstatus>
-        </prereqs>
-        <effects>
-            <effect type="Data" subtype="los" amount="5" relativity="Absolute">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="MaximumRange" amount="5" relativity="Absolute" damageType="Pierce" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
     <tech name="Fortified Tower I" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">100</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Tower Defense</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -17181,16 +17154,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower I" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">100</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Tower Defense</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17207,16 +17176,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower I" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">100</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Tower Defense</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -17227,16 +17192,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower I" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">5</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Tower Defense</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17244,21 +17205,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower II" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">200</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower I</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -17270,16 +17224,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower II" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">200</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower I</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17296,16 +17246,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower II" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">200</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower I</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -17316,16 +17262,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower II" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">10</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower I</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17333,21 +17275,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower III" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">300</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower II</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -17359,16 +17294,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower III" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">300</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower II</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17385,16 +17316,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower III" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">300</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower II</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -17405,16 +17332,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower III" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">15</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower II</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17422,21 +17345,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower IV" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">400</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower III</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -17448,16 +17364,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower IV" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">400</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower III</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17474,16 +17386,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower IV" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">400</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower III</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -17494,16 +17402,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower IV" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">20</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower III</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17511,21 +17415,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower V" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">500</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower IV</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -17537,16 +17434,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower V" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">500</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower IV</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17563,16 +17456,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower V" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">500</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower IV</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -17583,16 +17472,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower V" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">25</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower IV</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17600,21 +17485,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower VI" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">600</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower V</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -17626,16 +17504,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower VI" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">600</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower V</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17652,16 +17526,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower VI" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">600</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower V</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -17672,16 +17542,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower VI" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">30</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower V</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17689,21 +17555,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower VII" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">700</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower VI</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -17715,16 +17574,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower VII" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">700</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower VI</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17741,16 +17596,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower VII" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">700</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower VI</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -17761,16 +17612,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower VII" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">35</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower VI</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17778,21 +17625,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower VIII" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">800</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower VII</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -17804,16 +17644,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower VIII" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">800</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower VII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17830,16 +17666,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower VIII" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">800</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower VII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -17850,16 +17682,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower VIII" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">40</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower VII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17867,21 +17695,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower IX" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">900</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower VIII</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -17893,16 +17714,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower IX" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">900</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower VIII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17919,16 +17736,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower IX" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">900</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower VIII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -17939,16 +17752,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower IX" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">45</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower VIII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -17956,21 +17765,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower X" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">1000</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower IX</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -17982,16 +17784,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower X" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">1000</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower IX</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18008,16 +17806,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower X" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">1000</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower IX</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -18028,16 +17822,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower X" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">50</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower IX</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18045,21 +17835,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower XI" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">1100</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower X</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -18071,16 +17854,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower XI" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">1100</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower X</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18097,16 +17876,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower XI" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">1100</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower X</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -18117,16 +17892,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower XI" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">55</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower X</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18134,21 +17905,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower XII" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">1200</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower XI</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -18160,16 +17924,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower XII" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">1200</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower XI</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18186,16 +17946,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower XII" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">1200</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower XI</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -18206,16 +17962,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower XII" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">60</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower XI</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18223,21 +17975,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower XIII" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">1300</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower XII</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -18249,16 +17994,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower XIII" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">1300</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower XII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18275,16 +18016,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower XIII" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">1300</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower XII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -18295,16 +18032,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower XIII" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">65</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower XII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18312,21 +18045,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower XIV" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">1400</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower XIII</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -18338,16 +18064,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower XIV" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">1400</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower XIII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18364,16 +18086,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower XIV" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">1400</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower XIII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -18384,16 +18102,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower XIV" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">70</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower XIII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18401,21 +18115,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower XV" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">1500</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower XIV</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -18427,16 +18134,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower XV" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">1500</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower XIV</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18453,16 +18156,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower XV" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">1500</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower XIV</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -18473,16 +18172,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower XV" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">75</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower XIV</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18490,21 +18185,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower XVI" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">1600</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower XV</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -18516,16 +18204,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower XVI" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">1600</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower XV</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18542,16 +18226,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower XVI" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">1600</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower XV</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -18562,16 +18242,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower XVI" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">80</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower XV</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18579,21 +18255,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower XVII" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">1700</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower XVI</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -18605,16 +18274,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower XVII" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">1700</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower XVI</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18631,16 +18296,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower XVII" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">1700</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower XVI</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -18651,16 +18312,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower XVII" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">85</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower XVI</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18668,21 +18325,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower XVIII" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">1800</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower XVII</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -18694,16 +18344,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower XVIII" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">1800</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower XVII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18720,16 +18366,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower XVIII" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">1800</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower XVII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -18740,16 +18382,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower XVIII" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">90</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower XVII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18757,21 +18395,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower XIX" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">1900</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower XVIII</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -18783,16 +18414,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower XIX" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">1900</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower XVIII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18809,16 +18436,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower XIX" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">1900</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower XVIII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -18829,16 +18452,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower XIX" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">95</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower XVIII</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18846,21 +18465,14 @@
         </effects>
     </tech>
     <tech name="Fortified Tower XX" type="Normal">
-        <dbid />
         <displaynameid>11197</displaynameid>
         <rollovertextid>10788</rollovertextid>
         <icon>improvement safeguard icon</icon>
         <cost resourcetype="Food">2000</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fortified Tower XIX</techstatus>
-        </prereqs>
         <effects>
-            <effect type="Data" subtype="initialhitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="maxhitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
             <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
@@ -18872,16 +18484,12 @@
         </effects>
     </tech>
     <tech name="Fast Aiming Tower XX" type="Normal">
-        <dbid />
         <displaynameid>11065</displaynameid>
         <rollovertextid>10665</rollovertextid>
         <icon>improvement ballista tower icon</icon>
         <cost resourcetype="Gold">2000</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Fast Aiming Tower XIX</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
@@ -18898,16 +18506,12 @@
         </effects>
     </tech>
     <tech name="Ranged Archers Tower XX" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>18155</displaynameid>
+        <rollovertextid>18156</rollovertextid>
+        <icon>Improvement Naval Oxybeles icon</icon>
         <cost resourcetype="Wood">2000</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Ranged Archers Tower XIX</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
                 <target type="ProtoUnit">Tower</target>
@@ -18918,16 +18522,12 @@
         </effects>
     </tech>
     <tech name="Arrow Rain Tower XX" type="Normal">
-        <dbid />
-        <displaynameid>11081</displaynameid>
-        <rollovertextid>10680</rollovertextid>
-        <icon>improvement carrier pigeons icon</icon>
+        <displaynameid>11083</displaynameid>
+        <rollovertextid>10682</rollovertextid>
+        <icon>improvement champion archer icon</icon>
         <cost resourcetype="Favor">100</cost>
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
-        <prereqs>
-            <techstatus status="Active">Arrow Rain Tower XIX</techstatus>
-        </prereqs>
         <effects>
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
