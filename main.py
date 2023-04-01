@@ -188,9 +188,9 @@ class AOMXMLInjector(ABC):
         self.ROOT_DIR = ROOT_DIR
         self.VERSION = VERSION
         self.techtree, self.proto = load_aom_xml(ROOT_DIR, VERSION)
-        self.backup('backup')
+        self.backup('xml/backup')
         self.inject()
-        self.export('export')
+        self.export('xml/export')
         
     def backup(self, backup_dir: str):
         '''Backup the XML files before we overwrite them'''
