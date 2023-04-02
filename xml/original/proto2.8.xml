@@ -20286,8 +20286,8 @@
         <displaynameid>16873</displaynameid>
         <icon>Building Sentry Tower Icon</icon>
         <maxcontained>5</maxcontained>
-        <initialhitpoints>1550.0000</initialhitpoints>
-        <maxhitpoints>1550.0000</maxhitpoints>
+        <initialhitpoints>550.0000</initialhitpoints>
+        <maxhitpoints>550.0000</maxhitpoints>
         <los>24.0000</los>
         <portraiticon>Building Sentry Tower Icon 64</portraiticon>
         <obstructionradiusx>1.0000</obstructionradiusx>

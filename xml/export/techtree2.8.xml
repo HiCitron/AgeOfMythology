@@ -17142,13 +17142,13 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17161,16 +17161,16 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Rate" amount="2" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0047846889952152" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Accuracy" amount="1.0091743119266054" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
+            <effect type="Data" subtype="Rate" amount="1.1" relativity="Percent" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17183,10 +17183,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="los" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17202,6 +17202,9 @@
             <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
+                <target type="ProtoUnit">Tower</target>
+            </effect>
         </effects>
     </tech>
     <tech name="Fortified Tower II" type="Normal">
@@ -17212,13 +17215,13 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17231,16 +17234,16 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Rate" amount="2" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0096153846153846" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Accuracy" amount="1.0185185185185186" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
+            <effect type="Data" subtype="Rate" amount="1.1" relativity="Percent" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17253,10 +17256,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="los" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17269,7 +17272,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
+            <effect type="Data" subtype="NumberProjectiles" amount="2" relativity="Absolute" action="RangedAttack">
+                <target type="ProtoUnit">Tower</target>
+            </effect>
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17282,13 +17288,13 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17301,16 +17307,16 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Rate" amount="2" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0144927536231882" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Accuracy" amount="1.02803738317757" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
+            <effect type="Data" subtype="Rate" amount="1.1" relativity="Percent" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17323,10 +17329,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="los" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17339,7 +17345,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
+            <effect type="Data" subtype="NumberProjectiles" amount="3" relativity="Absolute" action="RangedAttack">
+                <target type="ProtoUnit">Tower</target>
+            </effect>
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17352,13 +17361,13 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17371,16 +17380,16 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Rate" amount="2" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0194174757281553" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Accuracy" amount="1.0377358490566038" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
+            <effect type="Data" subtype="Rate" amount="1.1" relativity="Percent" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17393,10 +17402,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="los" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17409,7 +17418,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
+            <effect type="Data" subtype="NumberProjectiles" amount="4" relativity="Absolute" action="RangedAttack">
+                <target type="ProtoUnit">Tower</target>
+            </effect>
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17422,13 +17434,13 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17441,16 +17453,16 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Rate" amount="2" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.024390243902439" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Accuracy" amount="1.0476190476190477" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
+            <effect type="Data" subtype="Rate" amount="1.1" relativity="Percent" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17463,10 +17475,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="los" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17479,7 +17491,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
+            <effect type="Data" subtype="NumberProjectiles" amount="5" relativity="Absolute" action="RangedAttack">
+                <target type="ProtoUnit">Tower</target>
+            </effect>
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17492,13 +17507,13 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17511,16 +17526,16 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Rate" amount="2" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0294117647058825" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Accuracy" amount="1.0576923076923077" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
+            <effect type="Data" subtype="Rate" amount="1.1" relativity="Percent" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17533,10 +17548,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="los" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17549,7 +17564,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
+            <effect type="Data" subtype="NumberProjectiles" amount="6" relativity="Absolute" action="RangedAttack">
+                <target type="ProtoUnit">Tower</target>
+            </effect>
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17562,13 +17580,13 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17581,16 +17599,16 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Rate" amount="2" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0344827586206897" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Accuracy" amount="1.0679611650485437" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
+            <effect type="Data" subtype="Rate" amount="1.1" relativity="Percent" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17603,10 +17621,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="los" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17619,7 +17637,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
+            <effect type="Data" subtype="NumberProjectiles" amount="7" relativity="Absolute" action="RangedAttack">
+                <target type="ProtoUnit">Tower</target>
+            </effect>
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17632,13 +17653,13 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17651,16 +17672,16 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Rate" amount="2" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0396039603960396" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Accuracy" amount="1.0784313725490196" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
+            <effect type="Data" subtype="Rate" amount="1.1" relativity="Percent" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17673,10 +17694,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="los" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17689,7 +17710,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
+            <effect type="Data" subtype="NumberProjectiles" amount="8" relativity="Absolute" action="RangedAttack">
+                <target type="ProtoUnit">Tower</target>
+            </effect>
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17702,13 +17726,13 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17721,16 +17745,16 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Rate" amount="2" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.044776119402985" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Accuracy" amount="1.089108910891089" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
+            <effect type="Data" subtype="Rate" amount="1.1" relativity="Percent" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17743,10 +17767,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="los" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17759,7 +17783,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
+            <effect type="Data" subtype="NumberProjectiles" amount="9" relativity="Absolute" action="RangedAttack">
+                <target type="ProtoUnit">Tower</target>
+            </effect>
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17772,13 +17799,13 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17791,16 +17818,16 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Rate" amount="2" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.05" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="Accuracy" amount="1.1" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
+            <effect type="Data" subtype="Rate" amount="1.1" relativity="Percent" action="HandAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17813,10 +17840,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
+            <effect type="Data" subtype="los" amount="1.1" relativity="Percent">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
+            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="Percent" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>
@@ -17829,707 +17856,10 @@
         <researchpoints>10</researchpoints>
         <status>OBTAINABLE</status>
         <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
+            <effect type="Data" subtype="NumberProjectiles" amount="10" relativity="Absolute" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
-        </effects>
-    </tech>
-    <tech name="Fortified Tower XI" type="Normal">
-        <displaynameid>11197</displaynameid>
-        <rollovertextid>10788</rollovertextid>
-        <icon>improvement safeguard icon</icon>
-        <cost resourcetype="Food">1100</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fast Aiming Tower XI" type="Normal">
-        <displaynameid>11065</displaynameid>
-        <rollovertextid>10665</rollovertextid>
-        <icon>improvement ballista tower icon</icon>
-        <cost resourcetype="Gold">1100</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0552763819095479" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Ranged Archers Tower XI" type="Normal">
-        <displaynameid>18155</displaynameid>
-        <rollovertextid>18156</rollovertextid>
-        <icon>Improvement Naval Oxybeles icon</icon>
-        <cost resourcetype="Wood">1100</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Arrow Rain Tower XI" type="Normal">
-        <displaynameid>11083</displaynameid>
-        <rollovertextid>10682</rollovertextid>
-        <icon>improvement champion archer icon</icon>
-        <cost resourcetype="Favor">55</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fortified Tower XII" type="Normal">
-        <displaynameid>11197</displaynameid>
-        <rollovertextid>10788</rollovertextid>
-        <icon>improvement safeguard icon</icon>
-        <cost resourcetype="Food">1200</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fast Aiming Tower XII" type="Normal">
-        <displaynameid>11065</displaynameid>
-        <rollovertextid>10665</rollovertextid>
-        <icon>improvement ballista tower icon</icon>
-        <cost resourcetype="Gold">1200</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0606060606060606" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Ranged Archers Tower XII" type="Normal">
-        <displaynameid>18155</displaynameid>
-        <rollovertextid>18156</rollovertextid>
-        <icon>Improvement Naval Oxybeles icon</icon>
-        <cost resourcetype="Wood">1200</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Arrow Rain Tower XII" type="Normal">
-        <displaynameid>11083</displaynameid>
-        <rollovertextid>10682</rollovertextid>
-        <icon>improvement champion archer icon</icon>
-        <cost resourcetype="Favor">60</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fortified Tower XIII" type="Normal">
-        <displaynameid>11197</displaynameid>
-        <rollovertextid>10788</rollovertextid>
-        <icon>improvement safeguard icon</icon>
-        <cost resourcetype="Food">1300</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fast Aiming Tower XIII" type="Normal">
-        <displaynameid>11065</displaynameid>
-        <rollovertextid>10665</rollovertextid>
-        <icon>improvement ballista tower icon</icon>
-        <cost resourcetype="Gold">1300</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0659898477157361" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Ranged Archers Tower XIII" type="Normal">
-        <displaynameid>18155</displaynameid>
-        <rollovertextid>18156</rollovertextid>
-        <icon>Improvement Naval Oxybeles icon</icon>
-        <cost resourcetype="Wood">1300</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Arrow Rain Tower XIII" type="Normal">
-        <displaynameid>11083</displaynameid>
-        <rollovertextid>10682</rollovertextid>
-        <icon>improvement champion archer icon</icon>
-        <cost resourcetype="Favor">65</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fortified Tower XIV" type="Normal">
-        <displaynameid>11197</displaynameid>
-        <rollovertextid>10788</rollovertextid>
-        <icon>improvement safeguard icon</icon>
-        <cost resourcetype="Food">1400</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fast Aiming Tower XIV" type="Normal">
-        <displaynameid>11065</displaynameid>
-        <rollovertextid>10665</rollovertextid>
-        <icon>improvement ballista tower icon</icon>
-        <cost resourcetype="Gold">1400</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0714285714285714" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Ranged Archers Tower XIV" type="Normal">
-        <displaynameid>18155</displaynameid>
-        <rollovertextid>18156</rollovertextid>
-        <icon>Improvement Naval Oxybeles icon</icon>
-        <cost resourcetype="Wood">1400</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Arrow Rain Tower XIV" type="Normal">
-        <displaynameid>11083</displaynameid>
-        <rollovertextid>10682</rollovertextid>
-        <icon>improvement champion archer icon</icon>
-        <cost resourcetype="Favor">70</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fortified Tower XV" type="Normal">
-        <displaynameid>11197</displaynameid>
-        <rollovertextid>10788</rollovertextid>
-        <icon>improvement safeguard icon</icon>
-        <cost resourcetype="Food">1500</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fast Aiming Tower XV" type="Normal">
-        <displaynameid>11065</displaynameid>
-        <rollovertextid>10665</rollovertextid>
-        <icon>improvement ballista tower icon</icon>
-        <cost resourcetype="Gold">1500</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0769230769230769" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Ranged Archers Tower XV" type="Normal">
-        <displaynameid>18155</displaynameid>
-        <rollovertextid>18156</rollovertextid>
-        <icon>Improvement Naval Oxybeles icon</icon>
-        <cost resourcetype="Wood">1500</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Arrow Rain Tower XV" type="Normal">
-        <displaynameid>11083</displaynameid>
-        <rollovertextid>10682</rollovertextid>
-        <icon>improvement champion archer icon</icon>
-        <cost resourcetype="Favor">75</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fortified Tower XVI" type="Normal">
-        <displaynameid>11197</displaynameid>
-        <rollovertextid>10788</rollovertextid>
-        <icon>improvement safeguard icon</icon>
-        <cost resourcetype="Food">1600</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fast Aiming Tower XVI" type="Normal">
-        <displaynameid>11065</displaynameid>
-        <rollovertextid>10665</rollovertextid>
-        <icon>improvement ballista tower icon</icon>
-        <cost resourcetype="Gold">1600</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0824742268041236" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Ranged Archers Tower XVI" type="Normal">
-        <displaynameid>18155</displaynameid>
-        <rollovertextid>18156</rollovertextid>
-        <icon>Improvement Naval Oxybeles icon</icon>
-        <cost resourcetype="Wood">1600</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Arrow Rain Tower XVI" type="Normal">
-        <displaynameid>11083</displaynameid>
-        <rollovertextid>10682</rollovertextid>
-        <icon>improvement champion archer icon</icon>
-        <cost resourcetype="Favor">80</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fortified Tower XVII" type="Normal">
-        <displaynameid>11197</displaynameid>
-        <rollovertextid>10788</rollovertextid>
-        <icon>improvement safeguard icon</icon>
-        <cost resourcetype="Food">1700</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fast Aiming Tower XVII" type="Normal">
-        <displaynameid>11065</displaynameid>
-        <rollovertextid>10665</rollovertextid>
-        <icon>improvement ballista tower icon</icon>
-        <cost resourcetype="Gold">1700</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0880829015544042" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Ranged Archers Tower XVII" type="Normal">
-        <displaynameid>18155</displaynameid>
-        <rollovertextid>18156</rollovertextid>
-        <icon>Improvement Naval Oxybeles icon</icon>
-        <cost resourcetype="Wood">1700</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Arrow Rain Tower XVII" type="Normal">
-        <displaynameid>11083</displaynameid>
-        <rollovertextid>10682</rollovertextid>
-        <icon>improvement champion archer icon</icon>
-        <cost resourcetype="Favor">85</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fortified Tower XVIII" type="Normal">
-        <displaynameid>11197</displaynameid>
-        <rollovertextid>10788</rollovertextid>
-        <icon>improvement safeguard icon</icon>
-        <cost resourcetype="Food">1800</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fast Aiming Tower XVIII" type="Normal">
-        <displaynameid>11065</displaynameid>
-        <rollovertextid>10665</rollovertextid>
-        <icon>improvement ballista tower icon</icon>
-        <cost resourcetype="Gold">1800</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.09375" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Ranged Archers Tower XVIII" type="Normal">
-        <displaynameid>18155</displaynameid>
-        <rollovertextid>18156</rollovertextid>
-        <icon>Improvement Naval Oxybeles icon</icon>
-        <cost resourcetype="Wood">1800</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Arrow Rain Tower XVIII" type="Normal">
-        <displaynameid>11083</displaynameid>
-        <rollovertextid>10682</rollovertextid>
-        <icon>improvement champion archer icon</icon>
-        <cost resourcetype="Favor">90</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fortified Tower XIX" type="Normal">
-        <displaynameid>11197</displaynameid>
-        <rollovertextid>10788</rollovertextid>
-        <icon>improvement safeguard icon</icon>
-        <cost resourcetype="Food">1900</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fast Aiming Tower XIX" type="Normal">
-        <displaynameid>11065</displaynameid>
-        <rollovertextid>10665</rollovertextid>
-        <icon>improvement ballista tower icon</icon>
-        <cost resourcetype="Gold">1900</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.0994764397905759" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Ranged Archers Tower XIX" type="Normal">
-        <displaynameid>18155</displaynameid>
-        <rollovertextid>18156</rollovertextid>
-        <icon>Improvement Naval Oxybeles icon</icon>
-        <cost resourcetype="Wood">1900</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Arrow Rain Tower XIX" type="Normal">
-        <displaynameid>11083</displaynameid>
-        <rollovertextid>10682</rollovertextid>
-        <icon>improvement champion archer icon</icon>
-        <cost resourcetype="Favor">95</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fortified Tower XX" type="Normal">
-        <displaynameid>11197</displaynameid>
-        <rollovertextid>10788</rollovertextid>
-        <icon>improvement safeguard icon</icon>
-        <cost resourcetype="Food">2000</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Hitpoints" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Damage" amount="1.1" relativity="BasePercent" damageType="Pierce" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Fast Aiming Tower XX" type="Normal">
-        <displaynameid>11065</displaynameid>
-        <rollovertextid>10665</rollovertextid>
-        <icon>improvement ballista tower icon</icon>
-        <cost resourcetype="Gold">2000</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="SpreadFactor" amount="0.9090909090909091" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Accuracy" amount="1.1052631578947367" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="Rate" amount="1.1" relativity="BasePercent" action="HandAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Ranged Archers Tower XX" type="Normal">
-        <displaynameid>18155</displaynameid>
-        <rollovertextid>18156</rollovertextid>
-        <icon>Improvement Naval Oxybeles icon</icon>
-        <cost resourcetype="Wood">2000</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="los" amount="1.1" relativity="BasePercent">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-            <effect type="Data" subtype="MaximumRange" amount="1.1" relativity="BasePercent" action="RangedAttack">
-                <target type="ProtoUnit">Tower</target>
-            </effect>
-        </effects>
-    </tech>
-    <tech name="Arrow Rain Tower XX" type="Normal">
-        <displaynameid>11083</displaynameid>
-        <rollovertextid>10682</rollovertextid>
-        <icon>improvement champion archer icon</icon>
-        <cost resourcetype="Favor">100</cost>
-        <researchpoints>10</researchpoints>
-        <status>OBTAINABLE</status>
-        <effects>
-            <effect type="Data" subtype="NumberProjectiles" amount="1" relativity="Absolute" action="RangedAttack">
+            <effect type="Data" subtype="Damage" amount="1.1" relativity="Percent" damageType="Pierce" action="RangedAttack">
                 <target type="ProtoUnit">Tower</target>
             </effect>
         </effects>

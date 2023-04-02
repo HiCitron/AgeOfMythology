@@ -83,6 +83,7 @@ class Culture(Enum):
 class Relativity(Enum):
     BasePercent = 'BasePercent'
     Absolute = 'Absolute'
+    Percent = 'Percent'
 
 @dataclass
 class Tech:

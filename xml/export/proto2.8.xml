@@ -20286,8 +20286,8 @@
         <displaynameid>16873</displaynameid>
         <icon>Building Sentry Tower Icon</icon>
         <maxcontained>5</maxcontained>
-        <initialhitpoints>1550.0000</initialhitpoints>
-        <maxhitpoints>1550.0000</maxhitpoints>
+        <initialhitpoints>550.0000</initialhitpoints>
+        <maxhitpoints>550.0000</maxhitpoints>
         <los>24.0000</los>
         <portraiticon>Building Sentry Tower Icon 64</portraiticon>
         <obstructionradiusx>1.0000</obstructionradiusx>
@@ -20450,46 +20450,6 @@
         <tech row="2" page="1" column="1">Fast Aiming Tower X</tech>
         <tech row="2" page="1" column="2">Ranged Archers Tower X</tech>
         <tech row="2" page="1" column="3">Arrow Rain Tower X</tech>
-        <tech row="2" page="1" column="0">Fortified Tower XI</tech>
-        <tech row="2" page="1" column="1">Fast Aiming Tower XI</tech>
-        <tech row="2" page="1" column="2">Ranged Archers Tower XI</tech>
-        <tech row="2" page="1" column="3">Arrow Rain Tower XI</tech>
-        <tech row="2" page="1" column="0">Fortified Tower XII</tech>
-        <tech row="2" page="1" column="1">Fast Aiming Tower XII</tech>
-        <tech row="2" page="1" column="2">Ranged Archers Tower XII</tech>
-        <tech row="2" page="1" column="3">Arrow Rain Tower XII</tech>
-        <tech row="2" page="1" column="0">Fortified Tower XIII</tech>
-        <tech row="2" page="1" column="1">Fast Aiming Tower XIII</tech>
-        <tech row="2" page="1" column="2">Ranged Archers Tower XIII</tech>
-        <tech row="2" page="1" column="3">Arrow Rain Tower XIII</tech>
-        <tech row="2" page="1" column="0">Fortified Tower XIV</tech>
-        <tech row="2" page="1" column="1">Fast Aiming Tower XIV</tech>
-        <tech row="2" page="1" column="2">Ranged Archers Tower XIV</tech>
-        <tech row="2" page="1" column="3">Arrow Rain Tower XIV</tech>
-        <tech row="2" page="1" column="0">Fortified Tower XV</tech>
-        <tech row="2" page="1" column="1">Fast Aiming Tower XV</tech>
-        <tech row="2" page="1" column="2">Ranged Archers Tower XV</tech>
-        <tech row="2" page="1" column="3">Arrow Rain Tower XV</tech>
-        <tech row="2" page="1" column="0">Fortified Tower XVI</tech>
-        <tech row="2" page="1" column="1">Fast Aiming Tower XVI</tech>
-        <tech row="2" page="1" column="2">Ranged Archers Tower XVI</tech>
-        <tech row="2" page="1" column="3">Arrow Rain Tower XVI</tech>
-        <tech row="2" page="1" column="0">Fortified Tower XVII</tech>
-        <tech row="2" page="1" column="1">Fast Aiming Tower XVII</tech>
-        <tech row="2" page="1" column="2">Ranged Archers Tower XVII</tech>
-        <tech row="2" page="1" column="3">Arrow Rain Tower XVII</tech>
-        <tech row="2" page="1" column="0">Fortified Tower XVIII</tech>
-        <tech row="2" page="1" column="1">Fast Aiming Tower XVIII</tech>
-        <tech row="2" page="1" column="2">Ranged Archers Tower XVIII</tech>
-        <tech row="2" page="1" column="3">Arrow Rain Tower XVIII</tech>
-        <tech row="2" page="1" column="0">Fortified Tower XIX</tech>
-        <tech row="2" page="1" column="1">Fast Aiming Tower XIX</tech>
-        <tech row="2" page="1" column="2">Ranged Archers Tower XIX</tech>
-        <tech row="2" page="1" column="3">Arrow Rain Tower XIX</tech>
-        <tech row="2" page="1" column="0">Fortified Tower XX</tech>
-        <tech row="2" page="1" column="1">Fast Aiming Tower XX</tech>
-        <tech row="2" page="1" column="2">Ranged Archers Tower XX</tech>
-        <tech row="2" page="1" column="3">Arrow Rain Tower XX</tech>
     </unit>
     <unit id="470" name="Settlement">
         <dbid>2144</dbid>
